@@ -19,9 +19,9 @@ Usage of the module is very simple.
 Script Usage
 ------------
 
-    from jxulie_slice.sliceDict import SLICE_DICT
+    from jxulie_utilities import slice
     test_dict = {"a":5, "b":3, "c":23, "d":234, "e":9}
-    print (SLICE_DICT().run(test_dict, 3))
+    print (slice.slice_dict(test_dict, 3))
 
 
 References
@@ -35,7 +35,7 @@ License
 The package is made available under the terms of the
 MIT License.
 
-Copyright © 2009 [jxulie][me]
+Copyright © 2016 [jxulie][me]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
