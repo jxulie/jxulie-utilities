@@ -29,7 +29,7 @@ References
 License
 -------
 
-The `python-fp-growth` package is made available under the terms of the
+The package is made available under the terms of the
 MIT License.
 
 Copyright © 2009 [jxulie][me]
