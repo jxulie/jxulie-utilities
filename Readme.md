@@ -19,6 +19,9 @@ Usage of the module is very simple.
 Script Usage
 ------------
 
+    from jxulie_slice.sliceDict import SLICE_DICT
+    test_dict = {"a":5, "b":3, "c":23, "d":234, "e":9}
+    print (SLICE_DICT().run(test_dict, 3))
 
 
 References
